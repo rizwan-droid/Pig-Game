@@ -1,0 +1,25 @@
+##DOM and DOM Manipulation
+- DOM(Document object model)
+- structured representation of the HTML document.
+- The DOM is used to connect webpages to scripts like javascript.
+- For each of HTML box, there is an object in the DOM that we can access and interact with.
+
+JAVASCRIPT<---interaction/manipulation--->DOM
+
+## Events and Events handling rolling the dice
+
+Events = Notifications that are sent to notify the code that something happened on the webpage.
+examples: clicking a button, resizing a window, scrolling down or pressing key.
+
+Event Listener = A function that performs an action based on a creation event. it waits a specific event to happen.
+
+## How events are processed.
+Execution stack : multiple execution context with 1 global context beside this it have another thing that is message queue which collects all the events like scroll, click execution
+
+-when all the execution context returns and the execution stack gets empty then event from message queue comes in the frame and due to event listener it gets performed.
+
+Note: Event listener is a function thats why it makes another execution context in the stack.
+
+callback function: A function that is passed in another functions arguments and called by another function is called callback function.
+
+state variable: state variable tells the condition of the system. it is used when we need something or remember something i.e true or false. 
